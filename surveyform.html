@@ -1,0 +1,40 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CBC:Survey Form</title>
+<link rel="stylesheet" href="css/survey.css">
+</head>
+</html>
+<body>
+    <h1 id="title">Cluckin Bell Clock Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+<form id="surveyform">
+    <div><label id="name-label">Name</label><br>
+    <input type="text" placeholder="enter username" required></div>
+<div><label id="email-label">Email</label><br>
+    <input type="text" placeholder="enter user valid email address" required></div>
+<div><label id="number-label">Age</label><br>
+    <input type="text" placeholder="enter age" required></div>
+    <div style="font-family:sans-serif;">what is ur favorite design made by CBC?<br>
+    <select id="dropdown" style="font-size: 18px;">
+        <option value="default">design</option>
+        <option value="default">analysis</option>
+        <option value="default">computation</option>
+    </select></div>
+    <div id="radiobox" style="font-family: sans-serif;">would u recommand CBC for future references<br>
+    <label for="sure" style="font-size: 18px;"><input id="sure" type="radio" name="sure-notsure-later">sure</label>
+    <label for="not sure" style="font-size: 18px;"><input id="not sure" type="radio" name="sure-notsure-later">not sure</label>
+    <label for="later" style="font-size: 18px;"><input id="later" type="radio" name="sure-notsure-later">later</label>
+</div>
+    <div id="checkbox" style="font-family: sans-serif;">What would you like to see improved? (Check all that apply)<br>
+    <label for="growth" style="font-size: 18px;"><input type="checkbox" name="desire">growth</label>
+    <label for="tactics" style="font-size: 18px;"><input type="checkbox" name="want">tactics</label>
+    <label for="planning" style="font-size: 18px;"><input type="checkbox" name="execution">planning</label>
+</div>
+    <div>Any comments or suggestions?<br>
+    <textarea style="position: relative;padding: 30px 0px 50px 50px;padding-right:80%;">write ur comments...</textarea></div><br>
+    <center><button id="submit">submit</button></center>
+
+</form>
+</body>
+</html> 

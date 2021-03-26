@@ -1,0 +1,31 @@
+
+#title{
+    background-color:rgba(141, 120, 67, 0.459) ;
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    margin-left: 15px; 
+}
+#description{
+    text-align: center;
+    font-size: 30px;
+    line-height: 0.5;
+}
+#surveyform{
+    background-color: lightgoldenrodyellow;
+    border-color: lawngreen;
+    margin-left:  15px; 
+    padding: 40px;
+    font-size: 24px ;
+    line-height:3;
+}
+
+#submit{
+    background-color:cyan;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10%;
+}
+#submit:hover{
+    background-color: lawngreen;
+}
